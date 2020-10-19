@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../pics/bg.jpg) top center no-repeat;
+    background-size: cover;
+}
+.search {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+#searchBar {
+    font-family: 'Lato', sans-serif;
+    line-height: 20px;
+    width: 150px;
+    padding: 2px 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+#btn {
+    color: #fff;
+    background:rgb(16, 16, 112);
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: none;
+    padding: 5px 10px;
+    border: none;
+}
+.dayOfWeek {
+    text-transform: capitalize;
+}
+#btn:hover {
+    box-shadow: none;   
+    border: 1px rgb(16, 16, 112) solid;
+    color: #fff;
+    background: none;
+}
+#weatherForecast {
+    background-color: rgba(16, 16, 112, 0.562);
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+.weatherDiv {
+    padding: 30px;
+    border: 1px #fff solid;
+    border-radius: 8px;
+    width: 110px;
+    text-align: center;
+    margin: 30px 0;
+}
+.weatherImg{
+    height: 100px;
+}
+.weatherData{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}

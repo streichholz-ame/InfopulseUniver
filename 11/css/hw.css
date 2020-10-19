@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Orbitron&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/bg.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+
+}
+.popup {
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+}
+#join {
+    display: none;
+    
+}
+#join img {
+    width: 250px;
+    border-radius: 3px;
+}
+#counter {
+    margin-right: -3px;
+    border-radius: 3px;
+}
+.text {
+    color: #fff;
+    padding: 30px 50px;
+    font-family: 'Orbitron', sans-serif;
+    line-height: 1.5em;
+    text-align: justify;
+}
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    margin: 30px auto;
+    width: 900px;
+    border: 1px #fff solid;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>index</title>
+        <meta charset="utf-8">
+        <style>
+            #empty {
+                display: none;
+            }
+            .highlight{
+                box-shadow: 0 0 3px #ff0000;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="list">
+            <fieldset>
+                <legend><h3>Калорийность продукта</h3></legend>
+                <select id="chooseProduct">
+                    <option value="">-- Выберите продукт --</option>
+                    <option value="90">Картофельное пюре</option>
+                    <option value="241">Курица</option>
+                    <option value="23">Помидоры</option>
+                    <option value="60">Компот</option>
+                    <option value="210">Сметана</option>
+                </select>
+                <br>
+                <input type="number" name="weight" placeholder="Количество продукта, г", id="weight" required>
+                <span id="empty">Введите количество</span>
+                <br>
+                <button type="button" id="btn">Посчитать</button>
+                <br>
+                <input type="number" name="result" placeholder="Количество калорий, ккал" id="result">
+                , ккал
+            </fieldset>
+            
+        </div>
+        <br>
+        <hr>
+        <img src="https://qph.fs.quoracdn.net/main-qimg-0bb263af908f7022f5f5c5331200461d" alt="I am Iron Man" id="tonyStark">
+        <br>
+        <input type="text" name="ironMan" placeholder="wtf" id="ironMan">
+        
+        <script src="js/homework.js"></script>
+    </body>
+</html>
